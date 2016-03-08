@@ -14,7 +14,7 @@ function AskYesNoQuestion([string]$question, [string]$key)
 	}
 	else
 	{
-		SetVariable $key $null
+		SetVariable $key "YES"
 	}
 	
 	Write-Host
